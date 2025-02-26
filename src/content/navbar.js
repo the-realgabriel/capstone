@@ -59,24 +59,6 @@ export default function Navbar() {
                   Corporate Governance
                 </a>
               </li>
-              <li>
-                <a 
-                  href="/mining" 
-                  className="block py-1 px-3 rounded-lg"
-                  onClick={() => setIsOpen(false)}
-                >
-                  Mining Assets
-                </a>
-              </li>
-              <li>
-                <a 
-                  href="/projects" 
-                  className="block py-1 px-3 rounded-lg"
-                  onClick={() => setIsOpen(false)}
-                >
-                  Project Data
-                </a>
-              </li>
             </ul>
           </div>
         </div>
