@@ -26,12 +26,9 @@ export const ScrollReveal = ({ children }) => {
       observer.observe(elementRef.current);
     }
 
-    return () => {
-      if (elementRef.current) {
-        observer.unobserve(elementRef.current);
-      }
-    };
-  }, []);
+    return () => observer.disconnect();
+  }
+  , []);
 
   return (
     <div ref={elementRef}>
