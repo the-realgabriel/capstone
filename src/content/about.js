@@ -16,15 +16,12 @@ export default function About() {
           </header>
           
           
-          <div className="p-8 bg-black text-white" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }}>
-            <h2 className="text-xl font-bold">PREMIUM COAL QUALITY</h2>
-            <p>BOSS and PB have high-quality coal with high CV...</p>
-          </div>
+          
           
          
           <div className="p-8 bg-blue-600 text-white" initial={{ x: -100 }} animate={{ x: 0 }} transition={{ duration: 1 }}>
             <h2 className="text-xl font-bold">UNIQUE POSITIONING IN THE MARKET</h2>
-            <p>BOSS operates and supplies coal to premium customers...</p>
+            <p>Chartand Capstone operates and supplies minerals such as steel and petrolium to premium customers...</p>
           </div>
           
           
