@@ -42,22 +42,22 @@ export default function Navbar() {
               text-lg font-medium
             ">
               <li>
-                <a 
-                  href="/about" 
+                <Link 
+                  to="/about" 
                   className="block py-1 px-3 rounded-lg"
                   onClick={() => setIsOpen(false)}
                 >
                   About Us
-                </a>
+                </Link>
               </li>
               <li>
-                <a 
-                  href="/govern" 
+                <Link 
+                  to="/govern" 
                   className="block py-1 px-3 rounded-lg"
                   onClick={() => setIsOpen(false)}
                 >
                   Corporate Governance
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
