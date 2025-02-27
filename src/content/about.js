@@ -26,7 +26,7 @@ export default function About() {
           
           
           <div className="p-8 bg-black text-white text-center" initial={{ scale: 0.8 }} animate={{ scale: 1 }} transition={{ duration: 0.5 }}>
-            <h2 className="text-xl font-bold">ABOUT BOSS</h2>
+            <h2 className="text-xl font-bold">ABOUT </h2>
             <p>Ideally positioned to fulfill the growing energy needs...</p>
           </div>
           

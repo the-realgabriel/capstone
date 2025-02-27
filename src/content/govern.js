@@ -19,7 +19,7 @@ export default function Govern() {
           
          
           <div className="p-8 bg-blue-600 text-white" >
-<div className="text-xl font-bold">UNIQUE POSITIONING IN THE M</div>
+<div className="text-xl font-bold">UNIQUE POSITIONING IN THE Market</div>
             <p>BOSS operates and supplies coal to premium customers...</p>
           </div>
           
