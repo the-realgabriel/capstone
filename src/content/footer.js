@@ -24,7 +24,7 @@ export default function Footer() {
       </div>
       <div className="line bg-gray-300 w-full h-[0.1rem] mt-8"></div>
       <p className="text-gray-500 text-center text-base px-5 md:px-32 py-4">
-        © 2025 CCL. All Rights Reserved.
+        © 2025 CCIL. All Rights Reserved.
       </p>
     </div>
   );

@@ -14,7 +14,7 @@ export default function Navbar() {
       <div className="container mx-auto">
         <div className="flex justify-between items-center p-2">
           <Link to="/">
-          <div className="logo text-lg font-bold text-gray-800">CCL</div></Link>
+          <div className="logo text-lg font-bold text-gray-800">CCIL</div></Link>
           
           <button 
             onClick={toggleMenu} 
