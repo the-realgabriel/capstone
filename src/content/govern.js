@@ -1,6 +1,7 @@
 import Navbar from "./navbar";
 import Footer from "./footer";
 import photo from "../images/photo1.jpg";
+import BackgroundSlideshow from "./BackgroundSlideshow";
 
 
 
@@ -8,6 +9,7 @@ export default function Govern() {
     return (
         <div>
             <Navbar />
+           
             <header className="relative text-white text-center py-32 bg-cover bg-center" style={{backgroundImage: "url('/hero-image.jpg')"}}>
             <div className="text-4xl font-bold text-black" >Meet Our Leadership</div>
             <div className="text-4xl font-bold bg-red-500 px-2 inline-block" >Visionary Leadership Driving Excellence</div>
@@ -68,7 +70,7 @@ export default function Govern() {
 
          </div>
           
-         
+         <BackgroundSlideshow />
          <Footer/>
         </div>
     );
