@@ -1,21 +1,21 @@
 .carousel .control-arrow {
-  background: none !important;
-  border: none !important;
-  opacity: 0.8 !important;
-  padding: 1rem !important;
+  background: none;
+  border: none;
+  opacity: 0.8;
+  padding: 1rem;
 }
 
 .carousel .control-arrow:hover {
-  background: rgba(0, 0, 0, 0.2) !important;
-  opacity: 1 !important;
+  background: rgba(0, 0, 0, 0.2);
+  opacity: 1;
 }
 
 .carousel .control-prev.control-arrow:before {
-  border-right: 12px solid #fff !important;
+  border-right: 12px solid #fff;
 }
 
 .carousel .control-next.control-arrow:before {
-  border-left: 12px solid #fff !important;
+  border-left: 12px solid #fff;
 }
 
 .carousel-container {
@@ -41,12 +41,12 @@
 /* Mobile-specific styles */
 @media (max-width: 640px) {
   .carousel .control-arrow {
-    padding: 0.5rem !important;
+    padding: 0.5rem;
   }
   
   .carousel .control-prev.control-arrow:before,
   .carousel .control-next.control-arrow:before {
-    border-width: 8px !important;
+    border-width: 8px;
   }
 }
 
