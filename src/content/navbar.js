@@ -42,13 +42,13 @@ export default function Navbar() {
               text-lg font-medium
             ">
               <li>
-                {/*<Link 
-                  to="/about" 
+                <Link 
+                  to="/project" 
                   className="block py-1 px-3 rounded-lg"
                   onClick={() => setIsOpen(false)}
                 >
-                  About Us
-                </Link> */}
+                  Projects
+                </Link> 
               </li>
               <li>
                 <Link 
